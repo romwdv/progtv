@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Monserrat", sans-serif;
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.heures h4 {
+  font-size: 12px;
+  font-weight: 700;
+}
+h5 {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.duree h5,
+.info h5 {
+  font-weight: 700;
+}
+
+.main {
+  max-width: 580px;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  /* border-right: 2px solid #333;
+  border-left: 2px solid #333; */
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 62px;
+}
+
+header img {
+  height: 62px;
+}
+
+.prog {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.col-gauche {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.col-droite {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  margin-left: 11px;
+}
+
+.col-droite-bas {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.red {
+  color: #dd1111;
+}
+
+.info span {
+  margin-right: 15px;
+}
+
+.direct {
+  animation-duration: 1.5s;
+  animation-name: direct;
+  animation-iteration-count: infinite;
+  transition: none;
+}
+
+@keyframes direct {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
