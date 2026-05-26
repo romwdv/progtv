@@ -1,6 +1,6 @@
 # Projet React + Vite
 
-Exercice d'utilisation de la méthode '''.map''' pour traiter les données reçues.
+Exercice d'utilisation de la méthode `.map` pour traiter les données reçues & conditional rendering.
 
 ## Dans ce projet
 
